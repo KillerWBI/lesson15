@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+   </head>
+
+<body>
+    <div class="Glaw position-absolute top-50 start-50 translate-middle">
+      <main class="border border-secondary border-opacity-75">
+       <div class="fs-1 pb-4" id="tel">
+        Ваш телефон:
+       </div>
+
+       <input 
+       class="fs-3 w-50"
+       type="text"
+       value="+38"
+       placeholder="Ваш номер"
+       required
+       pattern="[+][3][8][0][0-9]{9}|[+][3][8][(][0-9]{3}[)][0-9]{7}|[+][3][8][(][0-9]{3}[)][0-9]{3}-[0-9]{2}-[0-9]{2}
+       "
+       >
+     <div class="not-ok fs-4 pb-4 pt-2">
+        *Обезательно к заполнению
+     </div>
+     <div class="ok fs-4 pb-4">
+        Все Верно
+     </div>
+     <button class="fs-3">Перезвоните мне</button>
+   </main>
+    </div>
+</body>
+</html>
